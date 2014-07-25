@@ -1,7 +1,7 @@
 geohash-scala
 =============
 
-A scala implementation of the geohashing algorithm as described at 
+A Scala implementation of the geohashing algorithm as described at 
 http://en.wikipedia.org/wiki/Geohash and originally made available at 
 http://geohash.org/
 
@@ -10,7 +10,7 @@ Scala toolset (SBT, ScalaCheck and ScalaStyle). Style and correctness were the
 goals, not performance (though gratuitous inefficiency should be avoided), and 
 no benchmarking has been done.
 
-Usage:
+##Usage:
 
 ```scala
 import com.github.davidallsopp.geohash.GeoHash._
