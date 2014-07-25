@@ -15,11 +15,11 @@ no benchmarking has been done.
 ```scala
 import com.github.davidallsopp.geohash.GeoHash._
 
-encode(12.345, 123.456)
+encode(12.345, 123.456)  // latitude, longitude
 
-    // res0: String = wdpy1r3fv6c9
+    // res0: String = wdpy1r3fv6c9  // using default precision of 12 chars
 
-encode(12.345, 123.456, 6)
+encode(12.345, 123.456, 6)  // specify precision of 6 chars
 
     // res1: String = wdpy1r
 
