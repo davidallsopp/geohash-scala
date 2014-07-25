@@ -1,4 +1,4 @@
-name := "geohash"
+name := "geohash-scala"
 
 version := "0.5"
 
