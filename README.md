@@ -17,9 +17,13 @@ encode(12.345, 123.456)  // latitude, longitude
 
     // res0: String = wdpy1r3fv6c9  // using default precision of 12 chars
 
+encode(lat=12.345, lon=123.456)  // named arguments to avoid mixing up latitude and longitude
+
+    // res1: String = wdpy1r3fv6c9  // using default precision of 12 chars
+
 encode(12.345, 123.456, 6)  // specify precision of 6 chars
 
-    // res1: String = wdpy1r
+    // res2: String = wdpy1r
 
 decode("wdpy1r3fv6c9")
 
