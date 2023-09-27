@@ -8,7 +8,7 @@ http://geohash.org/
 This implementation is an exercise in writing idiomatic Scala and using the 
 Scala toolset (SBT, ScalaCheck and ScalaStyle).
 
-##Usage:
+## Usage:
 
 ```scala
 import com.github.davidallsopp.geohash.GeoHash._
